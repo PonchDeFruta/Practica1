@@ -3,7 +3,7 @@ import threading
 
 # Configura el servidor
 host = '127.0.0.1'
-port = 12345
+port = 12346
 
 # Crea un socket TCP
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
