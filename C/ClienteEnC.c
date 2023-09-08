@@ -19,7 +19,7 @@ int main() {
     // Configurar la dirección del servidor
     memset(&server_addr, 0, sizeof(server_addr));
     server_addr.sin_family = AF_INET;
-    server_addr.sin_port = htons(12345); // Puerto del servidor Java
+    server_addr.sin_port = htons(12347); // Puerto del servidor Java
     server_addr.sin_addr.s_addr = inet_addr("127.0.0.1"); // Dirección IP del servidor Java
 
     // Conectar al servidor
@@ -39,4 +39,5 @@ int main() {
     close(client_socket);
 
  return 0;
+
 }
