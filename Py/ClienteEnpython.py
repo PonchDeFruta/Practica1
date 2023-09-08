@@ -32,6 +32,7 @@ try:
 
         client_socket.send(mensaje_usuario.encode("utf-8"))
         client_socket_2.send(mensaje_usuario.encode("utf-8"))
+        
       
 
 except Exception as e:

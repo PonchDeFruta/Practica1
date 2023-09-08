@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class ServidorenJava {
 
     private static final int PORT = 12345;
-    private static ArrayList<PrintWriter> clientes = new ArrayList<>();
+    private static ArrayList<PrintWriter> clientes = new ArrayList<>();//
 
     public static void main(String[] args) {
         try {

@@ -38,5 +38,5 @@ int main() {
     // Cerrar el socket
     close(client_socket);
 
-    return 0;
+ return 0;
 }
