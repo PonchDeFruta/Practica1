@@ -10,7 +10,7 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.bind((host, port))
 server_socket.listen(5)
 
-print(f"Servidor escuchando en {host}:{port}")
+print(f"Servidor Python escuchando en {host}:{port}")
 
 # Lista para almacenar conexiones de clientes
 clientes = []

@@ -10,7 +10,8 @@ public class ServidorenJava {
     public static void main(String[] args) {
         try {
             ServerSocket serverSocket = new ServerSocket(PORT);
-            System.out.println("Servidor escuchando en el puerto " + PORT);
+            System.out.println("Servidor Java escuchando en el puerto " + PORT);
+            System.out.println("Hola Desde el cliente Python :)");
 
             while (true) {
                 new ClientHandler(serverSocket.accept()).start();
